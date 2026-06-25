@@ -1,0 +1,6 @@
+{
+  "name": "Irani Palace - Heritage Irani Chai",
+  "description": "An elegant, interactive menu, franchise proposal, and heritage portal for Irani Palace - Heritage Irani Chai Café.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
