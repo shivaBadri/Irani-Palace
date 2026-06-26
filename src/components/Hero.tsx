@@ -65,8 +65,8 @@ export default function Hero({ onScrollToMenu }: HeroProps) {
             <img
               className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
               referrerPolicy="no-referrer"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3HapmWw_UArnpxnTWpBkdET3s-CxXig4PIyKnuvJgO-hzJS70nqu2ef2RV-U1Tg_lg1lRvqcoEuCnjbVwe0jg7RO9pqqHow6q73ngakGSvWRFLB86UuP0cESlm19o_08d4MXWorIsr0NOx_eIaJA7auXNJS5D6lwgR5Q3BXqW25rl3wnexONLMQZteMfsEvklJibII9GOMq813vCsJEBk0q4aWXkFupHh6GWowCi1gg7mjtYVqGqgNSwf1BaRPY92EdC_9h7WIXg"
-              alt="Cinematic shot of rich amber Irani Chai being slow-poured from an antique brass tea kettle into a traditional crystal cut glass, steam rising gracefully in a warm historic lounge."
+              src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80"
+              alt="Traditional Irani chai served in a warm ceramic cup with a rich amber color and classic tea-house atmosphere."
               id="hero-main-img"
             />
             {/* Elegant corner highlights or picture frame accents */}

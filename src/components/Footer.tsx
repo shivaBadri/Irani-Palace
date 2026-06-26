@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { Share2, Heart, MessageSquare, Compass } from 'lucide-react';
+import { Share2, MessageCircle } from 'lucide-react';
 
 interface FooterProps {
   scrollToSection: (id: string) => void;
@@ -24,6 +24,10 @@ export default function Footer({ scrollToSection }: FooterProps) {
       navigator.clipboard.writeText(window.location.href);
       alert('Irani Palace website link copied to clipboard!');
     }
+  };
+
+  const handleWhatsApp = () => {
+    window.open('https://wa.me/918008181919?text=Hello%20Irani%20Palace%2C%20I%20would%20like%20to%20know%20more.', '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -47,6 +51,14 @@ export default function Footer({ scrollToSection }: FooterProps) {
                 id="footer-share-btn"
               >
                 <Share2 className="w-4 h-4" />
+              </button>
+              <button
+                onClick={handleWhatsApp}
+                className="w-10 h-10 border border-secondary-gold/30 rounded-full flex items-center justify-center hover:bg-secondary-gold hover:text-primary-brown transition-all cursor-pointer text-gold-light"
+                title="Chat on WhatsApp"
+                id="footer-whatsapp-btn"
+              >
+                <MessageCircle className="w-4 h-4" />
               </button>
             </div>
           </div>
